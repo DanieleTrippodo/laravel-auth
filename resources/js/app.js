@@ -1,10 +1,12 @@
 import './bootstrap';
 
-//importa il nostro custom SCSS
-import '~resources/scss/app.scss';
-
 //prende il JS di Bootstrap
 import * as bootstrap from 'bootstrap';
+
+import '../scss/app.scss';
+import './bootstrap';
+
+
 
 
 // ? ----------Importazioni Immagini----------------
